@@ -1,12 +1,18 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
-  return (
-      <Layout title='Elder Book'>
+  const descriptionPage = `O Ambiente Virtual de Aprendizagem do SUS, AVASUS, é uma plataforma que vem
+  auxiliando na transformação do cotidiano da saúde pública brasileira por meio da formação continuada em trabalho`
 
-      </Layout>
+  return (
+    <Layout
+      title='Elder Book'
+      description={descriptionPage}>
+      <main className='main-container'>
+        <h1>Início</h1>
+      </main>
+    </Layout>
   )
 }
 
