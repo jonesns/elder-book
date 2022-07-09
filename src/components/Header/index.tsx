@@ -17,7 +17,7 @@ function Header() {
                     </a>
                 </Link>
                 <nav>
-                    <ul className={styles.link_items}>
+                    <ul className={styles.link_itens}>
                         <li><Link href="/" ><a className={styles.link_a}>Início</a></Link></li>
                         <li><Link href="/" ><a className={styles.link_a}>Sobre Nós</a></Link></li>
                         <li><Link href="/cursos" ><a className={styles.link_a}>Cursos</a></Link></li>

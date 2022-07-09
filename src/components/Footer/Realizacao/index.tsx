@@ -1,4 +1,4 @@
-import { LogoRealizacao} from "./Icones";
+import { LogoRealizacao} from '../../Icones';
 import styles from '../../../styles/Footer.module.scss'
 export default function Realizacao() {
     return (
