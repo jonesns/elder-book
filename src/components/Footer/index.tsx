@@ -40,11 +40,13 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className={styles.break}>
-                    <p className={styles.text_bottom}>
+                <div className={styles.break}></div>
+                <div className={styles.text_bottom}>
+                    <p>
                         2022 © LAIS (HUOL). Todos os direitos reservados
                     </p>      
                 </div>
+                
             </section>
         </footer>
     );
