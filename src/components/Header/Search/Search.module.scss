@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #d16fff38;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    min-width: 300px;
+}
+
+.search_text {
+    float: right;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    min-width: 300px;
+}
+
+.icon {
+    padding-top: 5px;
+    padding-left: 8px;
+}

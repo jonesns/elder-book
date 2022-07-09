@@ -1,0 +1,29 @@
+$color-main: #d16fff;
+
+.button_entrar{
+    border-style: solid;
+    border-color: $color-main;
+    text-decoration: none;
+    color: $color-main;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 178px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.button_cadastrar{
+    border-style: solid;
+    border-color: $color-main;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 178px;
+    height: 40px;
+    background-color: $color-main;
+}
