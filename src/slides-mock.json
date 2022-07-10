@@ -1,0 +1,49 @@
+{
+    "slides_carrousel": [
+        {
+            "title": "Especialização PEPSUS",
+            "about": "Conheça o curso de Especialização em Saúde da Família",
+            "link": "link",
+            "image": {
+                "url": "/assets/slide_1.png",
+                "alt": "roda de pessoas"
+            }
+        },
+        {
+            "title": "Slide 2",
+            "about": "Lorem ipsum dolor sit amet",
+            "link": "link",
+            "image": {
+                "url": "/assets/em_breve.png",
+                "alt": "descricao"
+            }
+        },
+        {
+            "title": "Slide 3",
+            "about": "Lorem ipsum dolor sit amet",
+            "link": "link",
+            "image": {
+                "url": "/assets/em_breve.png",
+                "alt": "descricao"
+            }
+        }
+        ,{
+            "title": "Slide 4",
+            "about": "Lorem ipsum dolor sit amet",
+            "link": "link",
+            "image": {
+                "url": "/assets/em_breve.png",
+                "alt": "descricao"
+            }
+        },
+        {
+            "title": "Slide 5",
+            "about": "Lorem ipsum dolor sit amet",
+            "link": "url",
+            "image": {
+                "url": "/assets/em_breve.png",
+                "alt": "descricao"
+            }
+        }
+    ]
+}

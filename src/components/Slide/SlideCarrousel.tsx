@@ -9,7 +9,7 @@ export function SlideSlider({ slides }: SlideSliderProps) {
     
     const settings: SwiperProps = {
         spaceBetween: 50,
-        slidesPerView: 3,
+        slidesPerView: 1,
         navigation: true,
         pagination: {
             clickable: true,
