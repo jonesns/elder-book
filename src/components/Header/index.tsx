@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ButtonEntrar, ButtonCadastrar } from "./Button";
+import { ButtonEntrar, ButtonCadastrar } from "../Button";
 import styles from '../../styles/Header.module.scss'
 import Search from "./Search/Index";
 

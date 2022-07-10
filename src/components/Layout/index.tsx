@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Head from "next/head";
-import { LayoutProps } from "../../types/types";
+import { LayoutProps } from "./types";
 import Footer from "../Footer";
 import Content from "../content";
 
