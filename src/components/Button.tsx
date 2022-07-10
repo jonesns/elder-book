@@ -29,7 +29,7 @@ export function ButtonCadastrar(props: ButtonProps){
 export function ButtonAcesse(props: ButtonProps){
 
     return(
-        <button className={styles.button_cadastrar}>
+        <button className={styles.button_acesse}>
             {props.children}
         </button>
 

@@ -5,9 +5,17 @@
   font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
-.main-container {
+.container {
   min-height: 50vh;
-  background-color: #eee;
+  background-color: rgb(245, 220, 140);
+}
+.main-container{
+  height: 980px;
+}
+
+.slider{
+  padding-bottom: 1em;
+  background-color: #ececec;
 }
 
 .swiper {
@@ -20,13 +28,13 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #718096
+  background-color: #0e65e7
 }
 
 .swiper-button-prev {
-  color: #718096
+  color: #00fc7e
 }
 
 .swiper-button-next {
-  color: #718096
+  color: #04f872
 }
