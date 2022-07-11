@@ -1,0 +1,51 @@
+$main: #d16fff;
+$links: #2f2e41;
+
+.section {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        padding: 1.2em;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #7DC143;
+    }
+    
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.link_itens {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+
+    li {
+        margin: 0px 5px;
+    }
+}
+
+.link_a {
+    display: flex;
+    color: $links;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px 8px;
+    &:hover {
+        border-bottom: 3px solid $main;
+    }
+}
+
+

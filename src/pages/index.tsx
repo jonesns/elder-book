@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Layout from '../components/Layout'
+import ModulosEducacionais from '../components/ModulosEducacionais'
 import Parceiros from '../components/Parceiros'
 import { SlideSlider } from '../components/Slide/SlideCarrousel'
 import { slides_carrousel } from '../slides-mock.json'
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <section className='slider'>
           <SlideSlider slides={slides_carrousel} />
         </section>
+        <ModulosEducacionais />
         <Parceiros />
       </main>
     </Layout>

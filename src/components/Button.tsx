@@ -35,3 +35,13 @@ export function ButtonAcesse(props: ButtonProps){
 
     );
 }
+
+export function ButtonVerMais(){
+
+    return(
+        <button className={styles.button_acesse}>
+            Ver Mais
+        </button>
+
+    );
+}
