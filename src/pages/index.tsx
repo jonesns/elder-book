@@ -1,12 +1,26 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Layout from '../components/Layout'
+import ModulosEducacionais from '../components/ModulosEducacionais'
+import Parceiros from '../components/Parceiros'
+import { SlideSlider } from '../components/Slide/SlideCarrousel'
+import { slides_carrousel } from '../slides-mock.json'
 
 const Home: NextPage = () => {
-  return (
-      <Layout title='Elder Book'>
+  const descriptionPage = `O Ambiente Virtual de Aprendizagem do SUS, AVASUS, é uma plataforma que vem
+  auxiliando na transformação do cotidiano da saúde pública brasileira por meio da formação continuada em trabalho`
 
-      </Layout>
+  return (
+    <Layout
+      title='Elder Book'
+      description={descriptionPage}>
+      <main className='main-container'>
+        <section className='slider'>
+          <SlideSlider slides={slides_carrousel} />
+        </section>
+        <ModulosEducacionais />
+        <Parceiros />
+      </main>
+    </Layout>
   )
 }
 

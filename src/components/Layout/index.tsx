@@ -1,19 +1,24 @@
 import Header from "../Header";
 import Head from "next/head";
-import { LayoutProps } from "../../types/types";
+import { LayoutProps } from "./types";
+import Footer from "../Footer";
+import Content from "../content";
 
 function Layout(props: LayoutProps) {
     return (
         <>
             <Head>
                 <title>{props.title}</title>
-                <meta name="description" content="O Ambiente Virtual de Aprendizagem do SUS, AVASUS, é uma plataforma que vem auxiliando na transformação do cotidiano da saúde pública brasileira por meio da formação continuada em trabalho" />
+                <meta name="description" content={props.description} />
                 <link rel="icon" href="/favicon.ico" />
+                
             </Head>
             <Header />
-            <h1>Hello Word!!</h1>
+            <Content>
+                {props.children}
+            </Content>
+            <Footer />
         </>
-
     );
 }
 

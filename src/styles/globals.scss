@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.container {
+  min-height: 50vh;
+  background-color: rgb(245, 220, 140);
+}
+.main-container{
+  height: 120vh;
+}
+
+.slider{
+  padding-bottom: 1em;
+  background-color: #ececec;
+}
+
+.swiper {
+  padding: 32px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0e65e7
+}
+
+.swiper-button-prev {
+  color: #00fc7e
+}
+
+.swiper-button-next {
+  color: #04f872
+}

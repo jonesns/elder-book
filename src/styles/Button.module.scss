@@ -1,0 +1,42 @@
+$color-main: #d16fff;
+
+.button_entrar{
+    border-style: solid;
+    border-color: $color-main;
+    text-decoration: none;
+    color: $color-main;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 178px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.button_acesse{
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: $color-main;
+    margin-bottom: 2em;
+}
+
+.button_cadastrar{
+    border-style: solid;
+    border-color: $color-main;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 178px;
+    height: 40px;
+    background-color: $color-main;
+}
